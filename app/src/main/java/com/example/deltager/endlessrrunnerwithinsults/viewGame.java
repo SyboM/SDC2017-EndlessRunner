@@ -351,7 +351,7 @@ public class viewGame extends View
                     //60fps
                     j++;
                     insultTimer++;
-                if (insultTimer >= 300)    {
+                if (insultTimer >= 400)    {
                     printInsult = true;
                 }
                 if (j == 6)    {

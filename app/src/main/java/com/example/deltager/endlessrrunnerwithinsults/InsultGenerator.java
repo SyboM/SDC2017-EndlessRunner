@@ -116,7 +116,7 @@ public class InsultGenerator
 
                 };*/
 
-        String[] fullListOfInsults =
+        /*String[] fullListOfInsults =
                 {
                         "Hello, I am your phone.",
                         "I know that I am not supposed to contact you directly, but...",
@@ -167,7 +167,16 @@ public class InsultGenerator
                         //"I'm jealous of all the people that haven't met you!",
                         "I would love to insult you... but that would be beyond the level of your intelligence.",
 
-                };
+                };*/
+
+        String[] censoredList = {
+                "Hej",
+                "Det er en dårlig ide at begynde på det her spil",
+                "Det er meget afhængighedsdannende",
+                "Og prøv at se grafikken; den er helt vildt grimt",
+                "Jeg vil meget gerne have at du stopper med at spille det her spil",
+                "Der er mange andre ting du kunne lave i stedet, du kunne gå udenfor i det dejlige vejr", "",
+        };
 
         String[] Lx =
                 {
@@ -193,19 +202,20 @@ public class InsultGenerator
             break;
             case 1:
             //Det er muligt at den crasher pga toastContext eller toastTimer
-                if(deathCount > 1) {
+                /*if(deathCount > 1) {
                     Toast insultToastDead = Toast.makeText(toastContext, Dead[deathCount] , Toast.LENGTH_LONG);
                     insultToastDead.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
                     timeren = new ToastTimer(insultToastDead, 1);
                     timeren.start();
 
-                }
-            Toast insultToast = Toast.makeText(toastContext, fullListOfInsults[cnt], Toast.LENGTH_LONG);
+                } */
+
+            Toast insultToast = Toast.makeText(toastContext, censoredList[cnt], Toast.LENGTH_LONG);
             insultToast.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
             timeren = new ToastTimer(insultToast, 1);
                 timeren.start();
                 cnt++;
-                if(cnt > fullListOfInsults.length-1)
+                if(cnt > censoredList.length-1)
                 {
                     cnt = 0;
                 }
