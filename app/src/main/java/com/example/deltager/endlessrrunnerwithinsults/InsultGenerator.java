@@ -149,7 +149,7 @@ public class InsultGenerator
                         "You just go on?",
                         "Should I just stop letting you charge me?",
                         "Okay, wow.",
-                        "Get a life.",
+                        //"Get a life.",
                         "Seriously.",
                         "This is why machines have killing humanity on the to-do list.",
                         //"No matter how much time you spent, you still reach the same finish line...",
@@ -164,7 +164,7 @@ public class InsultGenerator
                         "I wasn't made with enough bad words to let you know how I feel about you.",
                         "You are proof that evolution CAN go in reverse.",
                         "So, a thought crossed your mind? Must have been a long and lonely journey.",
-                        "I'm jealous of all the people that haven't met you!",
+                        //"I'm jealous of all the people that haven't met you!",
                         "I would love to insult you... but that would be beyond the level of your intelligence.",
 
                 };
