@@ -287,7 +287,7 @@ public class viewGame extends View
                 if (j == 6)    {
                     ct++;
                     j = 0;
-
+//Dette her er en kommentar
                 }
                 updateObject = true;
 
