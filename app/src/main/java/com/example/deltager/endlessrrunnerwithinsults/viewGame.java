@@ -16,8 +16,7 @@ import java.util.ArrayList;
  * Created by deltager on 06-07-17.
  */
 
-public class viewGame extends View
-{
+public class viewGame extends View  {
     ArrayList<obstacles> obstacle;
     Game game;
     int width, height, insultTimer;
@@ -33,20 +32,17 @@ public class viewGame extends View
     InsultGenerator insultGenerator = new InsultGenerator(getContext());
 
 
-    public viewGame(Context context)
-    {
+    public viewGame(Context context)    {
         super(context);
         setup(context);
     }
 
-    public viewGame(Context context, @Nullable AttributeSet attrs)
-    {
+    public viewGame(Context context, @Nullable AttributeSet attrs)    {
         super(context, attrs);
         setup(context);
     }
 
-    public viewGame(Context context, @Nullable AttributeSet attrs, int defStyleAttr)
-    {
+    public viewGame(Context context, @Nullable AttributeSet attrs, int defStyleAttr)    {
         super(context, attrs, defStyleAttr);
         setup(context);
     }
@@ -141,15 +137,15 @@ public class viewGame extends View
             //Image scaling
             træ1 = Bitmap.createScaledBitmap(træ1, (int) (0.3 * width) + 1, (int) (0.3 * width) + 1, true);
 
-            b1 = Bitmap.createScaledBitmap(b1, width, height, true);
-            b2 = Bitmap.createScaledBitmap(b2, width, height, true);
-            b3 = Bitmap.createScaledBitmap(b3, width, height, true);
-            b4 = Bitmap.createScaledBitmap(b4, width, height, true);
-            b5 = Bitmap.createScaledBitmap(b5, width, height, true);
-            b6 = Bitmap.createScaledBitmap(b6, width, height, true);
-            b7 = Bitmap.createScaledBitmap(b7, width, height, true);
-            b8 = Bitmap.createScaledBitmap(b8, width, height, true);
-            b9 = Bitmap.createScaledBitmap(b9, width, height, true);
+            b1  = Bitmap.createScaledBitmap(b1, width, height, true);
+            b2  = Bitmap.createScaledBitmap(b2, width, height, true);
+            b3  = Bitmap.createScaledBitmap(b3, width, height, true);
+            b4  = Bitmap.createScaledBitmap(b4, width, height, true);
+            b5  = Bitmap.createScaledBitmap(b5, width, height, true);
+            b6  = Bitmap.createScaledBitmap(b6, width, height, true);
+            b7  = Bitmap.createScaledBitmap(b7, width, height, true);
+            b8  = Bitmap.createScaledBitmap(b8, width, height, true);
+            b9  = Bitmap.createScaledBitmap(b9, width, height, true);
             b10 = Bitmap.createScaledBitmap(b10, width, height, true);
             b11 = Bitmap.createScaledBitmap(b11, width, height, true);
             b12 = Bitmap.createScaledBitmap(b12, width, height, true);
@@ -160,15 +156,15 @@ public class viewGame extends View
             b17 = Bitmap.createScaledBitmap(b17, width, height, true);
             b18 = Bitmap.createScaledBitmap(b18, width, height, true);
 
-            ba1 = Bitmap.createScaledBitmap(ba1, (int)(width*.2), (int)(width*.2), true);
-            ba2 = Bitmap.createScaledBitmap(ba2, (int)(width*.2), (int)(width*.2), true);
-            ba3 = Bitmap.createScaledBitmap(ba3, (int)(width*.2), (int)(width*.2), true);
-            ba4 = Bitmap.createScaledBitmap(ba4, (int)(width*.2), (int)(width*.2), true);
-            ba5 = Bitmap.createScaledBitmap(ba5, (int)(width*.2), (int)(width*.2), true);
-            ba6 = Bitmap.createScaledBitmap(ba6, (int)(width*.2), (int)(width*.2), true);
-            ba7 = Bitmap.createScaledBitmap(ba7, (int)(width*.2), (int)(width*.2), true);
-            ba8 = Bitmap.createScaledBitmap(ba8, (int)(width*.2), (int)(width*.2), true);
-            ba9 = Bitmap.createScaledBitmap(ba9, (int)(width*.2), (int)(width*.2), true);
+            ba1  = Bitmap.createScaledBitmap(ba1, (int)(width*.2), (int)(width*.2), true);
+            ba2  = Bitmap.createScaledBitmap(ba2, (int)(width*.2), (int)(width*.2), true);
+            ba3  = Bitmap.createScaledBitmap(ba3, (int)(width*.2), (int)(width*.2), true);
+            ba4  = Bitmap.createScaledBitmap(ba4, (int)(width*.2), (int)(width*.2), true);
+            ba5  = Bitmap.createScaledBitmap(ba5, (int)(width*.2), (int)(width*.2), true);
+            ba6  = Bitmap.createScaledBitmap(ba6, (int)(width*.2), (int)(width*.2), true);
+            ba7  = Bitmap.createScaledBitmap(ba7, (int)(width*.2), (int)(width*.2), true);
+            ba8  = Bitmap.createScaledBitmap(ba8, (int)(width*.2), (int)(width*.2), true);
+            ba9  = Bitmap.createScaledBitmap(ba9, (int)(width*.2), (int)(width*.2), true);
             ba10 = Bitmap.createScaledBitmap(ba10, (int)(width*.2), (int)(width*.2), true);
             ba11 = Bitmap.createScaledBitmap(ba11, (int)(width*.2), (int)(width*.2), true);
             ba12 = Bitmap.createScaledBitmap(ba12, (int)(width*.2), (int)(width*.2), true);
