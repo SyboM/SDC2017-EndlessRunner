@@ -175,7 +175,8 @@ public class InsultGenerator
                 "Det er meget afhængighedsdannende",
                 "Og prøv at se grafikken; den er helt vildt grimt",
                 "Jeg vil meget gerne have at du stopper med at spille det her spil",
-                "Der er mange andre ting du kunne lave i stedet, du kunne gå udenfor i det dejlige vejr", "",
+                "Der er mange andre ting du kunne lave i stedet, du kunne gå udenfor i det dejlige vejr",
+                "",
         };
 
         String[] Lx =
